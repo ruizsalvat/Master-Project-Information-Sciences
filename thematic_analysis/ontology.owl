@@ -2456,7 +2456,7 @@
 
 
         <ex:Pagination_metadata rdf:about="http://example.com/ontology#annotation_179">
-            <ex:Text>"meta"</ex:Text>
+            <ex:Text>"meta": { "limit": 20, "next": "/?username=alfred api_key=79138a622755a2383660347f895444b1eb927730 offset=20" "offset": 0, "previous": null, "total_count": 54 },</ex:Text>
             <ex:File>bigml_requests_09-05-2024</ex:File>
             <ex:Provider>BigML</ex:Provider>
     	</ex:Pagination_metadata>
@@ -2488,7 +2488,7 @@
 
 
         <ex:Pagination_request_paramaters rdf:about="http://example.com/ontology#annotation_183">
-            <ex:Text>"limit=10&offset=0", "limit=10&offset=10", and limit=10&offset=20",</ex:Text>
+            <ex:Text>"limit=10 offset=0", "limit=10 offset=10", and limit=10 offset=20",</ex:Text>
             <ex:File>bigml_requests_09-05-2024</ex:File>
             <ex:Provider>BigML</ex:Provider>
     	</ex:Pagination_request_paramaters>
@@ -2504,7 +2504,7 @@
 
 
         <ex:Nested_filter rdf:about="http://example.com/ontology#annotation_185">
-            <ex:Text>&tags__in=fraud</ex:Text>
+            <ex:Text>tags__in=fraud</ex:Text>
             <ex:File>bigml_requests_09-05-2024</ex:File>
             <ex:Provider>BigML</ex:Provider>
     	</ex:Nested_filter>
