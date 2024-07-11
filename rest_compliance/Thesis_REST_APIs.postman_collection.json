@@ -3986,6 +3986,155 @@
 			]
 		},
 		{
+			"name": "BigML Statistical Test Create",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "api_key",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "e838742ba8d1b90790717f3e813b805f3d65ccb7",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dataset\": \"dataset/665c9c601c3c406a907458ac\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bigml.io/andromeda/statisticaltest?username=RRUIZSALVAT",
+					"protocol": "https",
+					"host": [
+						"bigml",
+						"io"
+					],
+					"path": [
+						"andromeda",
+						"statisticaltest"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "RRUIZSALVAT"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "BigML Statistical Test Create",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"dataset\": \"dataset/665c9c601c3c406a907458ac\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://bigml.io/andromeda/statisticaltest?username=RRUIZSALVAT",
+							"protocol": "https",
+							"host": [
+								"bigml",
+								"io"
+							],
+							"path": [
+								"andromeda",
+								"statisticaltest"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "RRUIZSALVAT"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "BigML"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 11 Jul 2024 10:09:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,GET,PUT,DELETE"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, no-cache, no-store, must-revalidate"
+						},
+						{
+							"key": "X-UA-Compatible",
+							"value": "IE=Edge"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 google"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 400,\n    \"status\": {\n        \"code\": -1206,\n        \"extra\": {\n            \"dataset\": \"Invalid dataset id\"\n        },\n        \"message\": \"Validation error\"\n    }\n}"
+				}
+			]
+		},
+		{
 			"name": "IBM Models List",
 			"request": {
 				"auth": {
