@@ -32,6 +32,8 @@
 		
 		* "rules simplified" is a simplified version of the sheet "rules", where both sources documentation and HTTP requests have been merged. Each rule has been classified per API according to their adherence.
 		
+		* "compliance chart" contains a summary of the overall rule compliance.
+		
 		* "urls" contains the online locations where the API documentation has been downloaded from, and the URLs of the tested endpoints.
 		
 	* The file Thesis_REST_APIs.postman_collection.json is a postman collection containing all the HTTP requests used for the analysis. It can be easily imported to the software tool postman. <https://learning.postman.com/docs/introduction/overview/>
