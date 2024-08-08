@@ -6,7 +6,7 @@
 
 * At directory /methodology the diagrams exhibiting the methodology followed for answering RQ1 and RQ2. They are provided in both .png image format (at the directory /exports), and .drawio, the format used for making the diagrams with the tool Drawio. <https://www.drawio.com/>
 	
-	* "providers.xls" contains the list of the ML cloud providers from which APIs were used as objects of analysis. The providers generated revenue from their cloud offering are also specified.
+	* providers.xls contains the list of the ML cloud providers from which APIs were used as objects of analysis. The providers generated revenue from their cloud offering are also specified.
 
 * At directory /thematic_analysis, you can find the outcome of thematic analysis, the method used for answering RQ1.
 	
